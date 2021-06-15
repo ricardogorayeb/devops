@@ -261,10 +261,10 @@ $ kubectl apply -f ui.yml
 
 - Para o Debian 10, conforme documentação do LongHorn (https://longhorn.io/docs/1.0.0/deploy/install/), foram necessários alguns procedimentos antes da instalação do LongHorn para que o mesmo funcionasse corretamente:
 	1. Instalação dos pacotes abaixo relacionados em todos os nós do cluster
-		# apt-get install open-iscsi nfs-common jq
+		$ sudo apt-get install open-iscsi nfs-common jq
 	
 	2. Habilitar o MountPropation em todos os nós do cluster:
-		# mount --make-rshared /
+		$ sudo mount --make-rshared /
  
 
 
