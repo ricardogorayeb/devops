@@ -343,7 +343,7 @@ metadata:
   namespace: default
 spec:
   rules:
-  - host: product.rancher.dev-ops-ninja.com
+  - host: product.goroh.fpg.com
     http:
       paths:
       - backend:
