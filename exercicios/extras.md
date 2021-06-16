@@ -365,6 +365,10 @@ Usar o repositório:
 
 https://github.com/jonathanbaraldi/k8s-cleanup
 
+$ kubectl -n kube-system apply -f rbac.yml
+$ kubectl -n kube-system apply -f docker-clean.yml
+$ kubectl -n kube-system apply -f k8s-clean.yml
+$ kubectl -n kube-system apply -f etcd-empty-dir-cleanup.yml
 
 
 # Rancher HA - Rancher RKE
